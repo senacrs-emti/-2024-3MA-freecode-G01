@@ -13,6 +13,27 @@
         android:theme="@style/Theme.AppLavitalle"
         tools:targetApi="31">
         <activity
+            android:name=".tela_sociedade_enxerga_psico"
+            android:exported="false" />
+        <activity
+            android:name=".tela_ajuda"
+            android:exported="false" />
+        <activity
+            android:name=".tela_porquedevemos"
+            android:exported="false" />
+        <activity
+            android:name=".tela_psicocotidiano"
+            android:exported="false" />
+        <activity
+            android:name=".tela_tiposdeterapia"
+            android:exported="false" />
+        <activity
+            android:name=".tela_duvidas"
+            android:exported="false" />
+        <activity
+            android:name=".TelaDuvidasActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
