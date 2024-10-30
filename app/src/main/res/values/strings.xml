@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">AppLavitalle</string>
     <string name="menssana">"mens sana \n in corpore sano"</string>
+    <string name="tiposde">"TIPOS DE TERAPIA</string>
+    <string name="psico_cotidiano">"PSICOLOGIA NO COTIDIANO"</string>
+    <string name="pq_fzerterapia">POR QUE DEVEMOS FAZER TERAPIA?</string>
+    <string name="comoasocieade">"COMO A SOCIEDADE \nENXERGA A PSICOLOGIA?</string>
+    <string name="duvidas">"DÚVIDAS"</string>
+    <string name="precisodeajuda">"PRECISO DE AJUDA"</string>
 </resources>

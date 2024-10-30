@@ -57,18 +57,19 @@
                     app:srcCompat="@android:drawable/dark_header"
                     app:tint="#736767" />
 
+
                 <ImageButton
                     android:id="@+id/btn_MENU"
-                    android:layout_width="143dp"
-                    android:layout_height="74dp"
+                    android:layout_width="124dp"
+                    android:layout_height="51dp"
                     android:layout_marginStart="230dp"
-                    android:src="@drawable/menu_botao"
+                    android:background="@drawable/menu_botao"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.428"
+                    app:layout_constraintHorizontal_bias="0.526"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.05" />
+                    app:layout_constraintVertical_bias="0.065" />
 
                 <ImageButton
                     android:id="@+id/card1"
@@ -76,7 +77,8 @@
                     android:layout_height="90dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="380dp"
-                    android:background="@drawable/card_azul"
+                    android:background="@drawable/nao_pressionado_azul"
+                    android:src="@drawable/card_azul"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -84,7 +86,7 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.0" />
 
-                <ImageButton
+                    <ImageButton
                     android:id="@+id/card2"
                     android:layout_width="350dp"
                     android:layout_height="90dp"
@@ -186,6 +188,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/gilda_display"
                     android:text="@string/menssana"
                     android:textColor="#212121"
                     android:textSize="25sp"
@@ -195,6 +198,104 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.24" />
+
+                <TextView
+                    android:id="@+id/card_titulo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="230dp"
+                    android:layout_marginBottom="45dp"
+                    android:text="@string/tiposde"
+                    android:textColor="#040404"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/card1"
+                    app:layout_constraintEnd_toEndOf="@+id/card1"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/card1"
+                    app:layout_constraintTop_toTopOf="@+id/card1"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <TextView
+                    android:id="@+id/card_titulo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="230dp"
+                    android:layout_marginBottom="45dp"
+                    android:text="@string/psico_cotidiano"
+                    android:textColor="#040404"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/card2"
+                    app:layout_constraintEnd_toEndOf="@+id/card2"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/card2"
+                    app:layout_constraintTop_toTopOf="@+id/card2"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <TextView
+                    android:id="@+id/card_titulo3"
+                    android:layout_width="239dp"
+                    android:layout_height="63dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/pq_fzerterapia"
+                    android:textColor="#040404"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/card3"
+                    app:layout_constraintEnd_toEndOf="@+id/card3"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/card3"
+                    app:layout_constraintTop_toTopOf="@+id/card3"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <TextView
+                    android:id="@+id/card_titulo4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="@string/comoasocieade"
+                    android:textColor="#040404"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/card4"
+                    app:layout_constraintEnd_toEndOf="@+id/card4"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/card4"
+                    app:layout_constraintTop_toTopOf="@+id/card4"
+                    app:layout_constraintVertical_bias="0.724" />
+
+                <TextView
+                    android:id="@+id/card_titulo5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="45dp"
+                    android:text="@string/duvidas"
+                    android:textColor="#040404"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/card5"
+                    app:layout_constraintEnd_toEndOf="@+id/card5"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/card5"
+                    app:layout_constraintTop_toTopOf="@+id/card5"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <TextView
+                    android:id="@+id/card_titulo6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="45dp"
+                    android:text="@string/precisodeajuda"
+                    android:textColor="#040404"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/card6"
+                    app:layout_constraintEnd_toEndOf="@+id/card6"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/card6"
+                    app:layout_constraintTop_toTopOf="@+id/card6"
+                    app:layout_constraintVertical_bias="1.0" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </ScrollView>
