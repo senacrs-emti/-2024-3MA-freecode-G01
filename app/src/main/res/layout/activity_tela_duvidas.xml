@@ -27,7 +27,6 @@
                     android:layout_marginTop="20dp"
                     android:gravity="center_horizontal"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:text="DUVIDAS" />
             </TableRow>
 
@@ -40,34 +39,37 @@
                 android:layout_height="100dp">
 
                 <TableRow
-                    android:layout_width="280dp"
-                    android:orientation="vertical"
-                    android:layout_height="match_parent" >
+                    android:layout_width="400dp"
+
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"></LinearLayout>
+                        android:orientation="horizontal"></LinearLayout>
 
                     <TextView
                         android:id="@+id/textSUB2"
-                        android:layout_width="240dp"
-                        android:layout_height="1dp"
+                        android:layout_width="286dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
                         android:layout_marginLeft="10dp"
-                        android:layout_marginTop="20dp"
+                        android:text="Como escolher um psicólogo?"
                         android:textColor="@color/white"
-                        android:text="Como escolher um psicólogo????"
                         android:textSize="20dp" />
 
                     <TextView
                         android:id="@+id/textdois"
-                        android:layout_width="238dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_height="171dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginRight="10dp"
+                        android:padding="6dp"
+                        android:text="HAAHAHAHHHAHAHAHAAHAHAHAH"
                         android:textColor="@color/white"
-                        android:layout_marginTop="10dp"
-                        android:textSize="12dp"
-                        android:text="HAAHAHAHHHAHAHAHAAHAHAHAH" />
+                        android:textSize="12dp" />
+
                 </TableRow>
 
             </TableRow>
