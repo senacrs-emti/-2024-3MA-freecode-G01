@@ -24,7 +24,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="40dp"
                 android:textSize="30dp"
-                android:gravity="center_horizontal"
+                android:gravity="left"
                 android:padding="14dp"
                 android:text="TIPOS DE TERAPIA NA ÁREA DA PSICOLOGIA" />
 
@@ -103,6 +103,12 @@
                 android:padding="17dp"
                 android:justificationMode="inter_word"
                 android:text="A Terapia Cognitivo-Comportamental (TCC) é focada em ajudar pessoas com transtornos de ansiedade, acreditando que a forma como percebemos o mundo afeta nossa saúde mental. O objetivo é que o paciente compreenda seus pensamentos automáticos e como eles influenciam seus sentimentos e comportamentos. A abordagem é estruturada e diretiva, com sessões planejadas e um número de encontros definido no início do tratamento." />
+
+            <ImageButton
+                android:id="@+id/botaovoltar"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:src="@drawable/card_rosa" />
         </LinearLayout>
     </ScrollView>
 

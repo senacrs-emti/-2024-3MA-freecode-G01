@@ -84,6 +84,12 @@
                 android:justificationMode="inter_word"
                 android:padding="17dp"
                 android:text="Nas primeiras sessões é comum sentir-se tímido e nervoso. O início é introdutório, o profissional vai perguntar coisas básicas sobre a sua vida e seus gostos pessoais." />
+
+            <ImageButton
+                android:id="@+id/botaovoltar"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:src="@drawable/card_rosa" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

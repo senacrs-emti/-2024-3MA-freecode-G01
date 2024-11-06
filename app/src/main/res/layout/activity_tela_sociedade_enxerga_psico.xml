@@ -24,7 +24,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="40dp"
                 android:textSize="30dp"
-                android:gravity="center_horizontal"
+                android:gravity="left"
                 android:padding="14dp"
                 android:text="COMO A SOCIEDADE ENXERGA A PSICOLOGIA " />
 
@@ -34,7 +34,15 @@
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
                 android:padding="20dp"
-                android:text="Na sociedade contemporânea, ainda é comum encontrar uma visão distorcida da psicologia, devido a um histórico em que a saúde mental foi tratada como tabu. Antigamente, o preconceito era mais intenso, especialmente em relação à psicanálise, com tratamentos rígidos e muitas vezes considerados cruéis. Pacientes em tratamento eram rotulados como “loucos”. Apesar dos avanços, o preconceito persiste, alimentado pela falta de informação e pela disseminação de Fake News. Isso também afeta aqueles que desejam trabalhar na área, muitas vezes sendo desestimulados por discursos preconceituosos.    " />
+                android:layout_marginBottom="50dp"
+                android:text="@string/texto_comosociedade"
+                />
+
+            <ImageButton
+                android:id="@+id/botaovoltar"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:src="@drawable/card_rosa" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
