@@ -12,12 +12,12 @@ public class tela_duvidas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_duvidas);
 
-        TextView textTITULO = findViewById(R.id.textTITULO);
+        TextView textituloD = findViewById(R.id.textituloD);
         TextView textSUB1 = findViewById(R.id.textSUB1);
-        TextView text1 = findViewById(R.id.text1);
+        TextView textD1 = findViewById(R.id.textD1);
         TextView textSUB2 = findViewById(R.id.textSUB2);
-        TextView textdois = findViewById(R.id.textdois);
-        TextView textSUB3 = findViewById(R.id.text3);
-        TextView text3 = findViewById(R.id.text3);
+        TextView textD2 = findViewById(R.id.textD2);
+        TextView textSUB3 = findViewById(R.id.textSUB3);
+        TextView textD3 = findViewById(R.id.textD3);
     }
 }

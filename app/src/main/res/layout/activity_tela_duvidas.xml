@@ -18,10 +18,72 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textituloD"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="DÚVIDAS" />
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:padding="14dp"
+                android:text="DÚVIDAS SOBRE A PSICOLOGIA"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/textSUB1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:text="Como escolher um bom psicólogo?" />
+
+            <TextView
+                android:id="@+id/textD1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="17dp"
+                android:justificationMode="inter_word"
+                android:text="Primeiramente, é importante checar as credenciais do profissional e avaliações. É importante analisar o perfil e a personalidade, o processo de tratamento se torna mais fácil e leve desenvolvendo uma boa confiança entre profissional e paciente. Como existem vários tipos de terapia, é bom pesquisar com qual você se identifica e se o psicólogo exerce a técnica escolhida por você."
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textSUB2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:text="Como os tratamentos funcionam? " />
+
+            <TextView
+                android:id="@+id/textD2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="17dp"
+                android:justificationMode="inter_word"
+                android:textSize="16dp"
+                android:text="Cada profissional tem sua forma de exercer sua profissão, no qual utilizam técnicas, frequência de sessões. Os psicólogos possuem o mesmo objetivo de tratar comportamentos, emoções e um mar de sentimentos do paciente." />
+
+            <TextView
+                android:id="@+id/textSUB3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:text="O que esperar da primeira consulta? " />
+
+            <TextView
+                android:id="@+id/textD3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:justificationMode="inter_word"
+                android:padding="17dp"
+                android:text="Nas primeiras sessões é comum sentir-se tímido e nervoso. O início é introdutório, o profissional vai perguntar coisas básicas sobre a sua vida e seus gostos pessoais." />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
