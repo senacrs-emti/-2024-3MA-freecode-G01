@@ -26,6 +26,7 @@
                 android:textSize="30dp"
                 android:gravity="left"
                 android:padding="14dp"
+                android:layout_weight="1"
                 android:text="TIPOS DE TERAPIA" />
 
             <TextView
@@ -35,6 +36,7 @@
                 android:layout_marginTop="20dp"
                 android:textAlignment="center"
                 android:layout_marginBottom="10dp"
+                android:layout_weight="1"
                 android:textSize="20dp"
                 android:text="TERAPIA PSICANALÍTICA DE FREUD " />
 
@@ -43,6 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
+                android:layout_weight="1"
                 android:padding="17dp"
                 android:justificationMode="inter_word"
                 android:text="A psicanálise, desenvolvida por Sigmund Freud, trata transtornos mentais por meio da fala. Nos consultórios, os pacientes geralmente se deitam em um divã, para evitar inibições causadas pelo contato visual direto. As primeiras sessões servem para avaliar se a psicanálise é o tratamento adequado. Durante o processo, o paciente tem liberdade para falar sobre qualquer tema, e o psicanalista busca ajudar a superar bloqueios emocionais, fazendo questionamentos que incentivam a reflexão, sem dar respostas diretas ou orientações específicas." />
@@ -55,6 +58,7 @@
                 android:textAlignment="center"
                 android:layout_marginBottom="10dp"
                 android:textSize="20dp"
+                android:layout_weight="1"
                 android:text="TERAPIA JUNGUIANA" />
 
             <TextView
@@ -64,6 +68,7 @@
                 android:textSize="16dp"
                 android:padding="17dp"
                 android:justificationMode="inter_word"
+                android:layout_weight="1"
                 android:text=" A terapia Junguiana, desenvolvida por Carl G. Jung, foca no inconsciente, utilizando os sonhos como uma importante fonte de análise. O terapeuta pode também empregar técnicas artísticas, como desenhos e escrita, para ajudar o paciente a expressar seus sentimentos e emoções. O objetivo é criar um ambiente no qual o paciente se sinta seguro e livre para guiar a sessão de acordo com suas próprias necessidades, promovendo o autoconhecimento e a cura." />
 
             <TextView
@@ -74,6 +79,7 @@
                 android:textAlignment="center"
                 android:layout_marginBottom="10dp"
                 android:textSize="20dp"
+                android:layout_weight="1"
                 android:text="TERAPIA BEHAVIORISTA" />
 
             <TextView
@@ -83,6 +89,7 @@
                 android:textSize="16dp"
                 android:padding="17dp"
                 android:justificationMode="inter_word"
+                android:layout_weight="1"
                 android:text="A psicologia comportamental, ou behaviorista, vê o comportamento humano como resultado de diversos fatores, onde nada que fazemos é por acaso. A maneira como nos comportamos varia conforme o ambiente, como almoçar com a mãe ou participar de um happy hour. Essa abordagem é mais direta e busca corrigir comportamentos, muitas vezes expondo o paciente aos seus medos de forma gradual. Por exemplo, se alguém tem medo de falar em público, o psicólogo pode propor exercícios que ajudem a reduzir esse medo progressivamente. Além disso, tarefas externas, como praticar uma apresentação, podem ser sugeridas para o paciente superar seus desafios." />
 
             <TextView
@@ -93,6 +100,7 @@
                 android:textAlignment="center"
                 android:layout_marginBottom="10dp"
                 android:textSize="20dp"
+                android:layout_weight="1"
                 android:text="TERAPIA COGNITIVO COMPORTAMENTAL (TCC)" />
 
             <TextView
@@ -102,6 +110,7 @@
                 android:textSize="16dp"
                 android:padding="17dp"
                 android:justificationMode="inter_word"
+                android:layout_weight="1"
                 android:text="A Terapia Cognitivo-Comportamental (TCC) é focada em ajudar pessoas com transtornos de ansiedade, acreditando que a forma como percebemos o mundo afeta nossa saúde mental. O objetivo é que o paciente compreenda seus pensamentos automáticos e como eles influenciam seus sentimentos e comportamentos. A abordagem é estruturada e diretiva, com sessões planejadas e um número de encontros definido no início do tratamento." />
 
             <ImageButton
@@ -109,7 +118,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
                 android:background="@drawable/card_rosa"
-                android:src="?attr/homeAsUpIndicator" />
+                android:src="?attr/homeAsUpIndicator"
+                android:layout_weight="1"/>
         </LinearLayout>
     </ScrollView>
 
