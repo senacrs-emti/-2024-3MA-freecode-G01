@@ -1,6 +1,7 @@
 package com.example.applavitalle;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +14,7 @@ public class tela_duvidas extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_duvidas);
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 
         ImageButton botaovoltar = findViewById(R.id.botaovoltar);
         botaovoltar.setOnClickListener(v -> {
