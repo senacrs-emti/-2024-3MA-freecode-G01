@@ -42,6 +42,15 @@
                 android:textSize="20dp"
                 android:text="TERAPIA PSICANALÍTICA DE FREUD " />
 
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@drawable/freudd" />
+
             <TextView
                 android:id="@+id/textTP3"
                 android:layout_width="match_parent"
@@ -64,6 +73,15 @@
                 android:layout_weight="1"
                 android:text="TERAPIA JUNGUIANA" />
 
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@drawable/jung" />
+
             <TextView
                 android:id="@+id/textTP4"
                 android:layout_width="match_parent"
@@ -79,12 +97,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:textAlignment="center"
                 android:layout_marginBottom="10dp"
-                android:textStyle="bold"
-                android:textSize="20dp"
                 android:layout_weight="1"
-                android:text="TERAPIA BEHAVIORISTA" />
+                android:text="TERAPIA BEHAVIORISMO"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@drawable/ski" />
 
             <TextView
                 android:id="@+id/textTP5"
@@ -108,6 +135,15 @@
                 android:layout_weight="1"
                 android:text="TERAPIA COGNITIVO COMPORTAMENTAL (TCC)" />
 
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@drawable/aaron" />
+
             <TextView
                 android:id="@+id/textTP6"
                 android:layout_width="match_parent"
@@ -122,6 +158,7 @@
                 android:id="@+id/botaovoltar"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
+                android:layout_marginTop="120dp"
                 android:background="@drawable/card_rosa"
                 android:src="?attr/homeAsUpIndicator"
                 android:layout_weight="1"/>

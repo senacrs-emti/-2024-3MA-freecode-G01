@@ -6,6 +6,9 @@ import androidx.appcompat.app.AppCompatDelegate;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageButton;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class tela_porquedevemos extends AppCompatActivity {
 
@@ -14,6 +17,8 @@ public class tela_porquedevemos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_porquedevemos);
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        TextView textituloPQ = findViewById(R.id.textituloPQ);
+        TextView textPQ = findViewById(R.id.textPQ);
 
         ImageButton botaovoltar = findViewById(R.id.botaovoltar);
         botaovoltar.setOnClickListener(v -> {
