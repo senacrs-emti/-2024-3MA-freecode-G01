@@ -10,7 +10,8 @@
         android:layout_width="409dp"
         android:layout_height="729dp"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,8 +36,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:textAlignment="center"
                 android:textStyle="bold"
+                android:padding="14dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
                 android:textSize="20dp"
@@ -48,7 +49,6 @@
                 android:layout_height="250dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1"
-                android:src="@tools:sample/avatars"
                 app:srcCompat="@drawable/freudd" />
 
             <TextView
@@ -59,15 +59,15 @@
                 android:layout_weight="1"
                 android:padding="17dp"
                 android:justificationMode="inter_word"
-                android:text="A psicanálise, desenvolvida por Sigmund Freud, trata transtornos mentais por meio da fala. Nos consultórios, os pacientes geralmente se deitam em um divã, para evitar inibições causadas pelo contato visual direto. As primeiras sessões servem para avaliar se a psicanálise é o tratamento adequado. Durante o processo, o paciente tem liberdade para falar sobre qualquer tema, e o psicanalista busca ajudar a superar bloqueios emocionais, fazendo questionamentos que incentivam a reflexão, sem dar respostas diretas ou orientações específicas." />
+                android:text="  A psicanálise, desenvolvida por Sigmund Freud, trata transtornos mentais por meio da fala. Nos consultórios, os pacientes geralmente se deitam em um divã, para evitar inibições causadas pelo contato visual direto. As primeiras sessões servem para avaliar se a psicanálise é o tratamento adequado. Durante o processo, o paciente tem liberdade para falar sobre qualquer tema, e o psicanalista busca ajudar a superar bloqueios emocionais, fazendo questionamentos que incentivam a reflexão, sem dar respostas diretas ou orientações específicas." />
 
             <TextView
                 android:id="@+id/textSUBTP3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:textAlignment="center"
                 android:textStyle="bold"
+                android:padding="14dp"
                 android:layout_marginBottom="10dp"
                 android:textSize="20dp"
                 android:layout_weight="1"
@@ -79,7 +79,6 @@
                 android:layout_height="250dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1"
-                android:src="@tools:sample/avatars"
                 app:srcCompat="@drawable/jung" />
 
             <TextView
@@ -90,7 +89,7 @@
                 android:padding="17dp"
                 android:justificationMode="inter_word"
                 android:layout_weight="1"
-                android:text=" A terapia Junguiana, desenvolvida por Carl G. Jung, foca no inconsciente, utilizando os sonhos como uma importante fonte de análise. O terapeuta pode também empregar técnicas artísticas, como desenhos e escrita, para ajudar o paciente a expressar seus sentimentos e emoções. O objetivo é criar um ambiente no qual o paciente se sinta seguro e livre para guiar a sessão de acordo com suas próprias necessidades, promovendo o autoconhecimento e a cura." />
+                android:text="  A terapia Junguiana, desenvolvida por Carl G. Jung, foca no inconsciente, utilizando os sonhos como uma importante fonte de análise. O terapeuta pode também empregar técnicas artísticas, como desenhos e escrita, para ajudar o paciente a expressar seus sentimentos e emoções. O objetivo é criar um ambiente no qual o paciente se sinta seguro e livre para guiar a sessão de acordo com suas próprias necessidades, promovendo o autoconhecimento e a cura." />
 
             <TextView
                 android:id="@+id/textSUBTP4"
@@ -99,8 +98,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:padding="14dp"
                 android:text="TERAPIA BEHAVIORISMO"
-                android:textAlignment="center"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -110,7 +109,6 @@
                 android:layout_height="250dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1"
-                android:src="@tools:sample/avatars"
                 app:srcCompat="@drawable/ski" />
 
             <TextView
@@ -121,17 +119,17 @@
                 android:padding="17dp"
                 android:justificationMode="inter_word"
                 android:layout_weight="1"
-                android:text="A psicologia comportamental, ou behaviorista, vê o comportamento humano como resultado de diversos fatores, onde nada que fazemos é por acaso. A maneira como nos comportamos varia conforme o ambiente, como almoçar com a mãe ou participar de um happy hour. Essa abordagem é mais direta e busca corrigir comportamentos, muitas vezes expondo o paciente aos seus medos de forma gradual. Por exemplo, se alguém tem medo de falar em público, o psicólogo pode propor exercícios que ajudem a reduzir esse medo progressivamente. Além disso, tarefas externas, como praticar uma apresentação, podem ser sugeridas para o paciente superar seus desafios." />
+                android:text="  A psicologia comportamental, ou behaviorista, vê o comportamento humano como resultado de diversos fatores, onde nada que fazemos é por acaso. A maneira como nos comportamos varia conforme o ambiente, como almoçar com a mãe ou participar de um happy hour. Essa abordagem é mais direta e busca corrigir comportamentos, muitas vezes expondo o paciente aos seus medos de forma gradual. Por exemplo, se alguém tem medo de falar em público, o psicólogo pode propor exercícios que ajudem a reduzir esse medo progressivamente. Além disso, tarefas externas, como praticar uma apresentação, podem ser sugeridas para o paciente superar seus desafios." />
 
             <TextView
                 android:id="@+id/textSUBTP5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:textAlignment="center"
                 android:textStyle="bold"
                 android:layout_marginBottom="10dp"
                 android:textSize="20dp"
+                android:padding="14dp"
                 android:layout_weight="1"
                 android:text="TERAPIA COGNITIVO COMPORTAMENTAL (TCC)" />
 
@@ -141,7 +139,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_gravity="center_horizontal"
-                android:src="@tools:sample/avatars"
                 app:srcCompat="@drawable/aaron" />
 
             <TextView
@@ -152,7 +149,7 @@
                 android:padding="17dp"
                 android:justificationMode="inter_word"
                 android:layout_weight="1"
-                android:text="A Terapia Cognitivo-Comportamental (TCC) é focada em ajudar pessoas com transtornos de ansiedade, acreditando que a forma como percebemos o mundo afeta nossa saúde mental. O objetivo é que o paciente compreenda seus pensamentos automáticos e como eles influenciam seus sentimentos e comportamentos. A abordagem é estruturada e diretiva, com sessões planejadas e um número de encontros definido no início do tratamento." />
+                android:text="  A Terapia Cognitivo-Comportamental (TCC) é focada em ajudar pessoas com transtornos de ansiedade, acreditando que a forma como percebemos o mundo afeta nossa saúde mental. O objetivo é que o paciente compreenda seus pensamentos automáticos e como eles influenciam seus sentimentos e comportamentos. A abordagem é estruturada e diretiva, com sessões planejadas e um número de encontros definido no início do tratamento." />
 
             <ImageButton
                 android:id="@+id/botaovoltar"

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class tela_psicocotidiano extends AppCompatActivity {
 
@@ -14,6 +15,9 @@ public class tela_psicocotidiano extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_psicocotidiano);
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+
+        TextView textituloCO = findViewById(R.id.textituloCO);
+        TextView textCO = findViewById(R.id.textCO);
 
         ImageButton botaovoltar = findViewById(R.id.botaovoltar);
         botaovoltar.setOnClickListener(v -> {

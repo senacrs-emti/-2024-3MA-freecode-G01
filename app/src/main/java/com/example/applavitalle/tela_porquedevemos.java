@@ -17,6 +17,7 @@ public class tela_porquedevemos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_porquedevemos);
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+
         TextView textituloPQ = findViewById(R.id.textituloPQ);
         TextView textPQ = findViewById(R.id.textPQ);
 
