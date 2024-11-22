@@ -26,6 +26,19 @@ public class tela_porquedevemos extends AppCompatActivity {
             // Abrir activity
             Intent intent = new Intent(tela_porquedevemos.this, MainActivity.class);
             startActivity(intent);
+            v.animate()
+                    .scaleX(0.95f)
+                    .scaleY(0.95f)
+                    .setDuration(100)
+                    .withEndAction(() -> {
+                        v.animate()
+                                .scaleX(1f)
+                                .scaleY(1f)
+                                .setDuration(100)
+                                .start();
+                        // Função a ser inserida do menu
+                    })
+                    .start();
         });
     }
 }
