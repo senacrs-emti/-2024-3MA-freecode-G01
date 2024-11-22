@@ -67,7 +67,7 @@
                 android:padding="17dp"
                 android:justificationMode="inter_word"
                 android:textSize="16dp"
-                android:text="@string/texto2_duvidas";
+                android:text="@string/texto2_duvidas"/>
             <TextView
                 android:id="@+id/textSUB3"
                 android:layout_width="match_parent"
