@@ -7,16 +7,17 @@
     tools:context=".tela_duvidas">
 
     <ScrollView
+        android:id="@+id/scrollView4"
         android:layout_width="409dp"
         android:layout_height="729dp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp"
-        tools:ignore="MissingConstraints">
+        tools:layout_editor_absoluteY="1dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textituloD"
@@ -25,27 +26,27 @@
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="10dp"
                 android:padding="14dp"
-                android:textStyle="bold"
                 android:text="DÚVIDAS SOBRE A PSICOLOGIA"
-                android:textSize="30dp" />
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textSUB1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="15dp"
-                android:textStyle="bold"
+                android:layout_marginTop="20dp"
                 android:layout_marginBottom="10dp"
+                android:text="Como escolher um bom psicólogo?"
                 android:textSize="20dp"
-                android:text="Como escolher um bom psicólogo?" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textD1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="17dp"
                 android:justificationMode="inter_word"
+                android:padding="17dp"
                 android:text="@string/texto1_duvidas"
                 android:textSize="16dp" />
 
@@ -53,49 +54,49 @@
                 android:id="@+id/textSUB2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="10dp"
-                android:layout_marginLeft="15dp"
-                android:textStyle="bold"
+                android:text="Como os tratamentos funcionam? "
                 android:textSize="20dp"
-                android:text="Como os tratamentos funcionam? " />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textD2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="17dp"
                 android:justificationMode="inter_word"
-                android:textSize="16dp"
+                android:padding="17dp"
                 android:text="@string/texto2_duvidas"
-            />
+                android:textSize="16dp" />
+
             <TextView
                 android:id="@+id/textSUB3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="15dp"
-                android:textStyle="bold"
+                android:layout_marginTop="20dp"
                 android:layout_marginBottom="10dp"
+                android:text="O que esperar da primeira consulta? "
                 android:textSize="20dp"
-                android:text="O que esperar da primeira consulta? " />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textD3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="16dp"
                 android:justificationMode="inter_word"
                 android:padding="17dp"
-                android:text="@string/texto3_duvidas" />
+                android:text="@string/texto3_duvidas"
+                android:textSize="16dp" />
 
             <ImageView
                 android:id="@+id/imgDUVIDA"
                 android:layout_width="322dp"
                 android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="50dp"
                 android:layout_marginBottom="60dp"
-                android:layout_gravity="center_horizontal"
                 app:srcCompat="@drawable/duvidas" />
         </LinearLayout>
     </ScrollView>
