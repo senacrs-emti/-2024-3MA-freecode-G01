@@ -42,12 +42,12 @@
 
             <TextView
                 android:id="@+id/textaSO"
-                android:layout_width="match_parent"
+                android:layout_width="387dp"
                 android:layout_height="wrap_content"
-                android:padding="25dp"
-                android:justificationMode="inter_word"
-                android:text="@string/texto_comosociedade"
                 android:layout_marginBottom="50dp"
+                android:justificationMode="inter_word"
+                android:padding="25dp"
+                android:text="@string/texto_comosociedade"
                 android:textSize="20dp" />
 
             <ImageButton
