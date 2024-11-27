@@ -27,6 +27,7 @@
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="10dp"
                 android:gravity="left"
+                android:layout_marginLeft="15dp"
                 android:padding="14dp"
                 android:text="PSICOLOGIA NO COTIDIANO"
                 android:textSize="30dp"
@@ -43,7 +44,6 @@
                 android:id="@+id/textCO"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:justificationMode="inter_word"
                 android:padding="20dp"
                 android:text="@string/texto_psicocotidiano"
                 android:textSize="20dp" />
