@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
-                android:padding="17dp"
+                android:padding="20dp"
                 android:text="@string/texto1_duvidas"
                 android:textSize="16dp" />
 
@@ -67,7 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
-                android:padding="17dp"
+                android:padding="20dp"
                 android:text="@string/texto2_duvidas"
                 android:textSize="16dp" />
 
@@ -87,7 +87,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
-                android:padding="17dp"
+                android:padding="20dp"
                 android:text="@string/texto3_duvidas"
                 android:textSize="16dp" />
 
