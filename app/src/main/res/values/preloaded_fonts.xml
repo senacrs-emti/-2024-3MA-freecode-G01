@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/chathura</item>
+        <item>@font/el_messiri</item>
         <item>@font/gilda_display</item>
         <item>@font/inria_sans_light</item>
         <item>@font/life_savers</item>
+        <item>@font/special_elite</item>
     </array>
 </resources>
