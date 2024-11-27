@@ -25,7 +25,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="10dp"
-                android:layout_marginLeft="15dp"
                 android:padding="14dp"
                 android:text="DÚVIDAS SOBRE A PSICOLOGIA"
                 android:textSize="30dp"
@@ -44,7 +43,7 @@
 
             <TextView
                 android:id="@+id/textD1"
-                android:layout_width="match_parent"
+                android:layout_width="372dp"
                 android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
                 android:padding="20dp"
@@ -53,7 +52,7 @@
 
             <TextView
                 android:id="@+id/textSUB2"
-                android:layout_width="match_parent"
+                android:layout_width="356dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="20dp"
@@ -64,7 +63,7 @@
 
             <TextView
                 android:id="@+id/textD2"
-                android:layout_width="match_parent"
+                android:layout_width="374dp"
                 android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
                 android:padding="20dp"
@@ -73,7 +72,7 @@
 
             <TextView
                 android:id="@+id/textSUB3"
-                android:layout_width="match_parent"
+                android:layout_width="357dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="20dp"
@@ -84,7 +83,7 @@
 
             <TextView
                 android:id="@+id/textD3"
-                android:layout_width="match_parent"
+                android:layout_width="371dp"
                 android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
                 android:padding="20dp"
@@ -93,19 +92,20 @@
 
             <ImageView
                 android:id="@+id/imgDUVIDA"
-                android:layout_width="322dp"
+                android:layout_width="512dp"
                 android:layout_height="300dp"
-                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="50dp"
-                android:layout_marginBottom="60dp"
+                android:paddingRight="130dp"
+                android:layout_marginBottom="20dp"
                 app:srcCompat="@drawable/duvidas" />
 
             <ImageButton
                 android:id="@+id/botaovoltar"
-                android:layout_width="match_parent"
+                android:layout_width="392dp"
                 android:layout_height="60dp"
                 android:background="@drawable/card_rosa"
                 android:src="?attr/homeAsUpIndicator" />
+
         </LinearLayout>
     </ScrollView>
 
