@@ -50,18 +50,14 @@
                 android:text="@string/texto_pqdevemos"
                 android:textSize="20dp" />
 
+            <ImageButton
+                android:id="@+id/botaovoltar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/card_rosa"
+                android:src="?attr/homeAsUpIndicator" />
+
         </LinearLayout>
     </ScrollView>
 
-    <ImageButton
-        android:id="@+id/botaovoltar"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginTop="700dp"
-        android:background="@drawable/card_rosa"
-        android:src="?attr/homeAsUpIndicator"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
