@@ -45,7 +45,8 @@
                 android:id="@+id/textCO"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="20dp"
+                android:padding="25dp"
+                android:justificationMode="inter_word"
                 android:layout_marginBottom="50dp"
                 android:text="@string/texto_psicocotidiano"
                 android:textSize="20dp" />

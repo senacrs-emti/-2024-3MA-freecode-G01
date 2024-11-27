@@ -61,7 +61,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:padding="17dp"
+                android:padding="25dp"
+                android:justificationMode="inter_word"
                 android:text="  A psicanálise, desenvolvida por Sigmund Freud, trata transtornos mentais por meio da fala. Nos consultórios, os pacientes geralmente se deitam em um divã, para evitar inibições causadas pelo contato visual direto. As primeiras sessões servem para avaliar se a psicanálise é o tratamento adequado. Durante o processo, o paciente tem liberdade para falar sobre qualquer tema, e o psicanalista busca ajudar a superar bloqueios emocionais, fazendo questionamentos que incentivam a reflexão, sem dar respostas diretas ou orientações específicas."
                 android:textSize="16dp" />
 
@@ -91,7 +92,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:padding="17dp"
+                android:padding="25dp"
+                android:justificationMode="inter_word"
                 android:text="  A terapia Junguiana, desenvolvida por Carl G. Jung, foca no inconsciente, utilizando os sonhos como uma importante fonte de análise. O terapeuta pode também empregar técnicas artísticas, como desenhos e escrita, para ajudar o paciente a expressar seus sentimentos e emoções. O objetivo é criar um ambiente no qual o paciente se sinta seguro e livre para guiar a sessão de acordo com suas próprias necessidades, promovendo o autoconhecimento e a cura."
                 android:textSize="16dp" />
 
@@ -121,7 +123,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:padding="17dp"
+                android:padding="25dp"
+                android:justificationMode="inter_word"
                 android:text="  A psicologia comportamental, ou behaviorista, vê o comportamento humano como resultado de diversos fatores, onde nada que fazemos é por acaso. A maneira como nos comportamos varia conforme o ambiente, como almoçar com a mãe ou participar de um happy hour. Essa abordagem é mais direta e busca corrigir comportamentos, muitas vezes expondo o paciente aos seus medos de forma gradual. Por exemplo, se alguém tem medo de falar em público, o psicólogo pode propor exercícios que ajudem a reduzir esse medo progressivamente. Além disso, tarefas externas, como praticar uma apresentação, podem ser sugeridas para o paciente superar seus desafios."
                 android:textSize="16dp" />
 
@@ -152,9 +155,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginBottom="50dp"
-                android:paddingLeft="17dp"
-                android:paddingTop="17dp"
-                android:paddingRight="17dp"
+                android:padding="25dp"
+                android:justificationMode="inter_word"
                 android:text="  A Terapia Cognitivo-Comportamental (TCC) é focada em ajudar pessoas com transtornos de ansiedade, acreditando que a forma como percebemos o mundo afeta nossa saúde mental. O objetivo é que o paciente compreenda seus pensamentos automáticos e como eles influenciam seus sentimentos e comportamentos. A abordagem é estruturada e diretiva, com sessões planejadas e um número de encontros definido no início do tratamento."
                 android:textSize="16dp" />
 
